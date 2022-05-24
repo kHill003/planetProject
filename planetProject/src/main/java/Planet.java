@@ -24,6 +24,9 @@ public class Planet {
         String output = String.format("Boom %s has exploded", this.planetName);
         return output;
     }
-
+    public int shrink(){
+        int output2 = this.planetSize - this.planetSize/2;
+        return output2;
+    }
 
 }

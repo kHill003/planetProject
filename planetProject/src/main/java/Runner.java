@@ -6,6 +6,7 @@ public class Runner {
         System.out.println(mars.getPlanetNameName());
         System.out.println(mars.getPlanetSize());
         System.out.println(mars.explode());
+        System.out.println(mars.shrink());
 
     }
 }
